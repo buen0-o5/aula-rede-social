@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    color:#FFF;
+    background-image: linear-gradient(to right, blue,rgb(0, 140, 255)30%,rgb(0, 247, 255));
+    width: 237px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 3px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgb(168, 166, 166);
+   
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+
+    color:#AAA;
+    border-radius: 5px;
+
+}
+img#papo{
+    height:150px ;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+div#box p {
+    text-align: center;
+    cursor: pointer;
+    color: #333;
+    font-weight: bolder;
+}
+div#box p:hover {
+   
+    color: 007fff;
+}
+div#box{
+    min-width: 100px;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+div#box:hover{
+    box-shadow: inset 0 0 6px #AAA;
+    border-radius: 5px;
+
+}
+hr{
+    width: 400px;
+    display: block;
+    margin: auto;
+    border:1px solid #555;
+}
+div#rodape{
+    bottom: 0;
+    text-align: center;
+    color: #666;
+    font-size: 13px;
+}

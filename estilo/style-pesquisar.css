@@ -1,0 +1,31 @@
+@charset "UTF-8";
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    text-align-last: center;
+    font-size: 40px;
+    color: #666;
+}
+h3{
+    text-align-last: center;
+    font-size: 32px;
+    color: #666;
+}
+p[name="p"]{
+display: block;
+margin: auto;
+font-size: 20px;
+text-align-last: center;
+max-width: 700px;
+}
+a[name="p"]{
+    color: #111111;
+    text-decoration: none;
+}
+hr{
+    border: 1px solid #6666;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
